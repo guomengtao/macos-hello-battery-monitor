@@ -1,18 +1,19 @@
-# macOS Hello Battery Monitor
+# macOS Battery AI Monitor | macOS 电池智能监控
 
 [English](#english) | [中文](#chinese)
 
 <a name="english"></a>
 ## English
 
-A simple macOS application that displays a welcome message and monitors battery status. Built with Swift and Cocoa framework.
+A macOS application that monitors battery status with AI-powered analysis and recommendations.
 
 ### Features
-- Displays "Hello Tom" welcome message
-- Real-time battery level monitoring
-- Clean user interface
-- Green theme background
-- 500x500 pixel window size
+- AI-powered battery analysis
+- Real-time battery monitoring
+- System-style UI with blur effect
+- Smart charging recommendations
+- Battery health analysis
+- Intelligent usage pattern detection
 
 ### System Requirements
 - macOS 10.10 or later
@@ -21,32 +22,27 @@ A simple macOS application that displays a welcome message and monitors battery 
 ### Quick Start
 
 #### Method 1: Direct Download
-1. Download [HelloTom.dmg](releases/HelloTom.dmg)
+1. Download [BatteryAI.dmg](releases/BatteryAI.dmg)
 2. Double click to open the DMG file
-3. Drag HelloTom.app to Applications folder
-4. Launch HelloTom from Launchpad or Applications folder
+3. Drag BatteryAI.app to Applications folder
+4. Launch from Launchpad or Applications folder
 
 Note: First launch may require approval in "System Preferences > Security & Privacy"
 
 #### Method 2: Build from Source
-1. Clone or download the source code
-2. Open Terminal and navigate to project directory
-3. Run `swift build` to build the project
-4. Run `swift run` to launch the application
-
----
 
 <a name="chinese"></a>
 ## 中文
 
-一个简单的 macOS 应用程序，显示欢迎信息并监控电池状态。使用 Swift 和 Cocoa 框架构建。
+一个使用 AI 技术分析电池状态并提供建议的 macOS 应用程序。
 
 ### 功能特点
-- 显示 "Hello Tom" 欢迎信息
-- 实时显示系统电池电量
-- 简洁的用户界面
-- 绿色主题背景
-- 500x500 像素的窗口大小
+- AI 电池分析功能
+- 实时电池监控
+- 系统风格毛玻璃界面
+- 智能充电建议
+- 电池健康分析
+- 智能使用模式检测
 
 ### 系统要求
 - macOS 10.10 或更高版本
@@ -55,44 +51,12 @@ Note: First launch may require approval in "System Preferences > Security & Priv
 ### 快速开始
 
 #### 方法1：直接下载使用
-1. 下载 [HelloTom.dmg](releases/HelloTom.dmg) 文件
+1. 下载 [BatteryAI.dmg](releases/BatteryAI.dmg) 文件
 2. 双击打开 DMG 文件
-3. 将 HelloTom.app 拖到应用程序文件夹
-4. 从启动台或应用程序文件夹启动 HelloTom
+3. 将 BatteryAI.app 拖到应用程序文件夹
+4. 从启动台或应用程序文件夹启动
 
 注意：首次运行可能需要在"系统偏好设置 > 安全性与隐私"中允许运行。
 
 #### 方法2：从源码构建
-1. 克隆或下载源码
-2. 打开终端，导航到项目目录
-3. 运行 `swift build` 构建项目
-4. 运行 `swift run` 运行应用程序
-
-### 技术细节 | Technical Details
-- 使用 Cocoa 框架创建原生窗口和界面 | Native window and interface with Cocoa framework
-- 使用 IOKit 框架获取系统电池信息 | System battery info using IOKit framework
-- 纯 Swift 编写，不依赖 Interface Builder | Pure Swift, no Interface Builder dependency
-- 使用 NSWindow 和 NSTextField 构建界面 | UI built with NSWindow and NSTextField
-
-### 许可证 | License
-MIT License - 查看 [LICENSE](LICENSE) 文件了解详情 | See [LICENSE](LICENSE) file for details
-
-### 贡献 | Contributing
-欢迎提交 Issue 和 Pull Request！| Issues and Pull Requests are welcome!
-
-### 更新日志 | Changelog
-查看完整的更新记录 [CHANGELOG.md](CHANGELOG.md)
-See full changelog in [CHANGELOG.md](CHANGELOG.md)
-
-#### 最新版本 | Latest Version
-v1.1.0 (2024-03-xx)
-- 添加 AI 电池分析功能 | Added AI battery analysis
-- 更新系统风格界面 | Updated system-style interface
-- 添加智能充电建议 | Added smart charging recommendations
-
-### 最新更新 | Latest Updates
-v1.1.1 (2024-03-xx)
-- 修复菜单栏和窗口显示问题 | Fixed menu bar and window display issues
-- 改进用户界面布局 | Improved UI layout
-- 优化应用程序激活逻辑 | Enhanced application activation logic
 
