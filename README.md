@@ -74,11 +74,6 @@ Note: First launch may require approval in "System Preferences > Security & Priv
 - 纯 Swift 编写，不依赖 Interface Builder | Pure Swift, no Interface Builder dependency
 - 使用 NSWindow 和 NSTextField 构建界面 | UI built with NSWindow and NSTextField
 
-### 作者 | Author
-- GitHub：[Your GitHub Profile]
-- Email：[Your Email]
-- Blog：[Your Blog]
-
 ### 许可证 | License
 MIT License - 查看 [LICENSE](LICENSE) 文件了解详情 | See [LICENSE](LICENSE) file for details
 
@@ -86,8 +81,18 @@ MIT License - 查看 [LICENSE](LICENSE) 文件了解详情 | See [LICENSE](LICEN
 欢迎提交 Issue 和 Pull Request！| Issues and Pull Requests are welcome!
 
 ### 更新日志 | Changelog
-#### v1.0.0 (2024-03-xx)
-- 初始版本发布 | Initial release
-- 实现基本显示功能 | Basic display functionality
-- 添加电池信息显示 | Battery information display
+查看完整的更新记录 [CHANGELOG.md](CHANGELOG.md)
+See full changelog in [CHANGELOG.md](CHANGELOG.md)
+
+#### 最新版本 | Latest Version
+v1.1.0 (2024-03-xx)
+- 添加 AI 电池分析功能 | Added AI battery analysis
+- 更新系统风格界面 | Updated system-style interface
+- 添加智能充电建议 | Added smart charging recommendations
+
+### 最新更新 | Latest Updates
+v1.1.1 (2024-03-xx)
+- 修复菜单栏和窗口显示问题 | Fixed menu bar and window display issues
+- 改进用户界面布局 | Improved UI layout
+- 优化应用程序激活逻辑 | Enhanced application activation logic
 
